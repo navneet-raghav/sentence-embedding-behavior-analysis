@@ -1,6 +1,6 @@
 # Sentence Similarity Behaviour Study
 
-## Overview
+# Overview
 This project compares three different approaches to sentence similarity: 
 1. TF-IDF
 2. Word2Vec 
@@ -14,7 +14,7 @@ The goal is to study representation behavior and not just accuracy.
 
 
 
-## Motivation
+# Motivation
 Sentence embeddings are widely used in applications like semantic search, question answering, and text matching. However, high similarity between two sentences does not necessarily mean they express the same meaning.
 
 For example, sentences that differ only by negation eg- “I like this movie” vs “I do not like this movie” may still receive very high similarity scores.
@@ -23,27 +23,27 @@ This project is built to examine such cases systematically and compare how lexic
 
 
 
-## Models Compared
+# Models Compared
 
-# 1. TF-IDF (Lexical Baseline)
+## 1. TF-IDF (Lexical Baseline)
 This model represents sentences using a bag-of-words approach with TF-IDF weighting. 
 Preprocessing includes tokenization, stopword removal, and lemmatization.
 
 It mainly captures surface-level word overlap.
 
-# 2. Word2Vec (Static Embeddings)
+## 2. Word2Vec (Static Embeddings)
 Pretrained GloVe embeddings (100-dimensional) are used to obtain word vectors. 
 Sentence vectors are computed by taking the average of the word embeddings.
 
 This approach captures distributional similarity, meaning words that appear in similar contexts are placed close together in vector space.
 
-# 3. Transformer (MiniLM)
+## 3. Transformer (MiniLM)
 The transformer based model ('all-MiniLM-L6-v2') generates contextual sentence embeddings. 
 Unlike static embeddings, it considers the entire sentence while generating representations.
 
 Similarity is computed using cosine similarity across all models.
 
-## Dataset
+# Dataset
 
 To evaluate model behaviour in a controlled way, I created a custom dataset of 100 sentence pairs.  
 Each pair is manually written to isolate a specific linguistic phenomenon.
@@ -71,7 +71,7 @@ For example:
 
 The intention is not to create a benchmark dataset, but to design a small, controlled experimental dataset that reveal specific strengths and weaknesses of each embedding approach across different categories.
 
-## Experimental Setup
+# Experimental Setup
 
 All three models are evaluated on the same dataset.
 
@@ -91,17 +91,17 @@ Cosine similarity between two vectors A and B is defined as:
 
 For each category, similarity scores are computed for all sentence pairs, and then the average similarity is calculated to analyze overall behaviour.
 
-## Results Summary
+# Results Summary
 
 The results show clear behavioural differences between the three models.
 
-# Exact Match
+## Exact Match
 
 - All models produce similarity scores very close to 1.0
 - This confirms that the implementations are functioning correctly.
 - It also verifies that cosine similarity behaves as expected when two sentences are identical.
 
-# Synonyms
+## Synonyms
 
 - TF-IDF often assigns very low similarity because it relies on direct word overlap.
 - Word2Vec generally assigns high similarity scores.
@@ -109,7 +109,7 @@ The results show clear behavioural differences between the three models.
 
 This indicates that embedding-based models capture semantic similarity beyond surface form, whereas TF-IDF remains strictly lexical.
 
-# Antonyms
+## Antonyms
 
 
 The antonym category produces one of the most interesting observations.
@@ -122,7 +122,7 @@ The antonym category produces one of the most interesting observations.
 
 This suggests that embedding similarity reflects contextual relatedness rather than logical opposition.
 
-# Negation
+## Negation
 
 Negation turns out to be particularly challenging.
 
@@ -132,7 +132,7 @@ Negation turns out to be particularly challenging.
 
 This shows that none of the models truly understand logical polarity; they mainly measure semantic closeness.
 
-# Word Order Variation
+## Word Order Variation
 
 
 When the subject and object are swapped (eg- 'The cat chased the mouse' vs 'The mouse chased the cat'), all models still produce very high similarity scores.
@@ -144,7 +144,7 @@ When the subject and object are swapped (eg- 'The cat chased the mouse' vs 'The 
 This indicates that sentence embedding similarity does not strongly capture role reversal, rather it focuses more on the contextual similarity.
 
 
-# Domain Shift
+## Domain Shift
 
 - In the domain shift category, TF-IDF consistently produces low similarity scores (mostly below 0.35), which is expected because there is little word overlap between sentences.
 
@@ -155,7 +155,7 @@ This indicates that sentence embedding similarity does not strongly capture role
 Overall, the transformer appears more sensitive to contextual differences across domains compared to static embeddings.
 
 
-### Same Topic, Different Stance
+## Same Topic, Different Stance
 
 In this category, sentences clearly discuss the same topic but express opposing opinions.
 
@@ -167,7 +167,7 @@ In this category, sentences clearly discuss the same topic but express opposing 
 
 These results suggest that embedding-based similarity primarily captures topical closeness rather than agreement in meaning. Opposing viewpoints on the same subject still remain close in embedding space.
 
-## Project Structure
+# Project Structure
 
 - `models/` – similarity model implementations  
 - `data/` – dataset and evaluation results  
@@ -175,7 +175,7 @@ These results suggest that embedding-based similarity primarily captures topical
 - `README.md` – project overview  
 
 
-## How to Run
+# How to Run
 
 1. Clone the repository.
 
@@ -204,7 +204,7 @@ The notebook:
 - Computes category-wise averages
 
 
-## Key Insights
+# Key Insights
 
 - TF-IDF measures lexical overlap, not meaning.
 - Word2Vec captures semantic relatedness but fails on logical opposition.
@@ -212,7 +212,7 @@ The notebook:
 - Negation and stance remain difficult for all embedding-based similarity models.
 - High cosine similarity does not imply agreement or logical equivalence.
 
-## Future Work
+# Future Work
 
 This study can be extended in several directions:
 
