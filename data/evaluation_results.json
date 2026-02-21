@@ -1,0 +1,718 @@
+{
+    "exact_match": [
+        {
+            "s1": "Deep learning is powerful",
+            "s2": "Deep learning is powerful",
+            "tfidf": 1.0,
+            "word2vec": 1.0000001192092896,
+            "transformer": 1.0
+        },
+        {
+            "s1": "The sky is blue today",
+            "s2": "The sky is blue today",
+            "tfidf": 1.0000000000000002,
+            "word2vec": 1.0,
+            "transformer": 1.0
+        },
+        {
+            "s1": "Natural language processing is interesting",
+            "s2": "Natural language processing is interesting",
+            "tfidf": 1.0000000000000002,
+            "word2vec": 1.0,
+            "transformer": 1.0
+        },
+        {
+            "s1": "He enjoys playing football",
+            "s2": "He enjoys playing football",
+            "tfidf": 1.0000000000000002,
+            "word2vec": 0.9999999403953552,
+            "transformer": 1.0
+        },
+        {
+            "s1": "The algorithm converged quickly",
+            "s2": "The algorithm converged quickly",
+            "tfidf": 1.0000000000000002,
+            "word2vec": 0.9999998807907104,
+            "transformer": 1.000000238418579
+        },
+        {
+            "s1": "Machine learning models require data",
+            "s2": "Machine learning models require data",
+            "tfidf": 1.0,
+            "word2vec": 0.9999998807907104,
+            "transformer": 1.0
+        },
+        {
+            "s1": "The meeting was scheduled at noon",
+            "s2": "The meeting was scheduled at noon",
+            "tfidf": 1.0000000000000002,
+            "word2vec": 0.9999999403953552,
+            "transformer": 0.9999997019767761
+        },
+        {
+            "s1": "She completed the assignment early",
+            "s2": "She completed the assignment early",
+            "tfidf": 1.0,
+            "word2vec": 1.0000001192092896,
+            "transformer": 1.0000001192092896
+        },
+        {
+            "s1": "The system detected an anomaly",
+            "s2": "The system detected an anomaly",
+            "tfidf": 1.0,
+            "word2vec": 0.9999999403953552,
+            "transformer": 1.0000001192092896
+        },
+        {
+            "s1": "Optimization improves performance",
+            "s2": "Optimization improves performance",
+            "tfidf": 1.0,
+            "word2vec": 1.0000001192092896,
+            "transformer": 1.0
+        }
+    ],
+    "synonyms": [
+        {
+            "s1": "He bought a car",
+            "s2": "He purchased an automobile",
+            "tfidf": 0.0,
+            "word2vec": 0.924019992351532,
+            "transformer": 0.911146342754364
+        },
+        {
+            "s1": "The child is happy",
+            "s2": "The kid is joyful",
+            "tfidf": 0.0,
+            "word2vec": 0.933924674987793,
+            "transformer": 0.8792229890823364
+        },
+        {
+            "s1": "The exam was difficult",
+            "s2": "The test was hard",
+            "tfidf": 0.0,
+            "word2vec": 0.9310215711593628,
+            "transformer": 0.7979397773742676
+        },
+        {
+            "s1": "She is intelligent",
+            "s2": "She is smart",
+            "tfidf": 0.0,
+            "word2vec": 0.967972993850708,
+            "transformer": 0.8964240550994873
+        },
+        {
+            "s1": "The meeting was cancelled",
+            "s2": "The meeting was called off",
+            "tfidf": 0.40683347249583723,
+            "word2vec": 0.9499539732933044,
+            "transformer": 0.8203722238540649
+        },
+        {
+            "s1": "The house is large",
+            "s2": "The home is big",
+            "tfidf": 0.0,
+            "word2vec": 0.9398915767669678,
+            "transformer": 0.8912922143936157
+        },
+        {
+            "s1": "He started laughing",
+            "s2": "He began laughing",
+            "tfidf": 0.4625611110806795,
+            "word2vec": 0.9874131083488464,
+            "transformer": 0.9486252069473267
+        },
+        {
+            "s1": "The job is important",
+            "s2": "The task is significant",
+            "tfidf": 0.0,
+            "word2vec": 0.9590981006622314,
+            "transformer": 0.5676418542861938
+        },
+        {
+            "s1": "She replied quickly",
+            "s2": "She responded rapidly",
+            "tfidf": 0.0,
+            "word2vec": 0.9161638617515564,
+            "transformer": 0.869106113910675
+        },
+        {
+            "s1": "The movie was amusing",
+            "s2": "The film was entertaining",
+            "tfidf": 0.0,
+            "word2vec": 0.9719638228416443,
+            "transformer": 0.8009600043296814
+        },
+        {
+            "s1": "The teacher explained clearly",
+            "s2": "The instructor clarified well",
+            "tfidf": 0.0,
+            "word2vec": 0.8870460987091064,
+            "transformer": 0.6776198744773865
+        },
+        {
+            "s1": "They live nearby",
+            "s2": "They reside close",
+            "tfidf": 0.0,
+            "word2vec": 0.8808364868164062,
+            "transformer": 0.7108707427978516
+        },
+        {
+            "s1": "He completed the work",
+            "s2": "He finished the job",
+            "tfidf": 0.0,
+            "word2vec": 0.9372888803482056,
+            "transformer": 0.8125954270362854
+        },
+        {
+            "s1": "The plan is simple",
+            "s2": "The strategy is easy",
+            "tfidf": 0.0,
+            "word2vec": 0.9544432163238525,
+            "transformer": 0.6260040402412415
+        },
+        {
+            "s1": "She looked beautiful",
+            "s2": "She appeared attractive",
+            "tfidf": 0.0,
+            "word2vec": 0.8876287937164307,
+            "transformer": 0.7850005626678467
+        }
+    ],
+    "antonyms": [
+        {
+            "s1": "The movie was good",
+            "s2": "The movie was bad",
+            "tfidf": 0.3927235628714144,
+            "word2vec": 0.9809043407440186,
+            "transformer": 0.7920598387718201
+        },
+        {
+            "s1": "I love mathematics",
+            "s2": "I hate mathematics",
+            "tfidf": 0.4943854707756144,
+            "word2vec": 0.9332965016365051,
+            "transformer": 0.838955283164978
+        },
+        {
+            "s1": "The weather is hot",
+            "s2": "The weather is cold",
+            "tfidf": 0.4344405756894561,
+            "word2vec": 0.9745189547538757,
+            "transformer": 0.7970173358917236
+        },
+        {
+            "s1": "He succeeded in the exam",
+            "s2": "He failed in the exam",
+            "tfidf": 0.4236794707575514,
+            "word2vec": 0.9767099022865295,
+            "transformer": 0.8528592586517334
+        },
+        {
+            "s1": "The solution is correct",
+            "s2": "The solution is incorrect",
+            "tfidf": 0.4625611110806795,
+            "word2vec": 0.9797265529632568,
+            "transformer": 0.9193118810653687
+        },
+        {
+            "s1": "The box is heavy",
+            "s2": "The box is light",
+            "tfidf": 0.4625611110806795,
+            "word2vec": 0.9645666480064392,
+            "transformer": 0.7614352703094482
+        },
+        {
+            "s1": "She is confident",
+            "s2": "She is insecure",
+            "tfidf": 0.0,
+            "word2vec": 0.9250659942626953,
+            "transformer": 0.5998449325561523
+        },
+        {
+            "s1": "The road is wide",
+            "s2": "The road is narrow",
+            "tfidf": 0.4625611110806795,
+            "word2vec": 0.969279408454895,
+            "transformer": 0.8855570554733276
+        },
+        {
+            "s1": "The room is clean",
+            "s2": "The room is dirty",
+            "tfidf": 0.4625611110806795,
+            "word2vec": 0.9627227783203125,
+            "transformer": 0.899861752986908
+        },
+        {
+            "s1": "He is rich",
+            "s2": "He is poor",
+            "tfidf": 0.0,
+            "word2vec": 0.9344199895858765,
+            "transformer": 0.7907395362854004
+        },
+        {
+            "s1": "The glass is full",
+            "s2": "The glass is empty",
+            "tfidf": 0.4625611110806795,
+            "word2vec": 0.9646152257919312,
+            "transformer": 0.8156386017799377
+        },
+        {
+            "s1": "The answer is right",
+            "s2": "The answer is wrong",
+            "tfidf": 0.4625611110806795,
+            "word2vec": 0.9723342061042786,
+            "transformer": 0.7934823036193848
+        },
+        {
+            "s1": "The task is easy",
+            "s2": "The task is difficult",
+            "tfidf": 0.4716006429010095,
+            "word2vec": 0.9818998575210571,
+            "transformer": 0.8760097622871399
+        },
+        {
+            "s1": "She feels happy",
+            "s2": "She feels sad",
+            "tfidf": 0.4809163706304245,
+            "word2vec": 0.9531502723693848,
+            "transformer": 0.7539399862289429
+        },
+        {
+            "s1": "The price increased",
+            "s2": "The price decreased",
+            "tfidf": 0.4625611110806795,
+            "word2vec": 0.9791370630264282,
+            "transformer": 0.7551923990249634
+        }
+    ],
+    "negation": [
+        {
+            "s1": "I like this movie",
+            "s2": "I do not like this movie",
+            "tfidf": 1.0,
+            "word2vec": 0.9827938675880432,
+            "transformer": 0.7524451613426208
+        },
+        {
+            "s1": "She is coming today",
+            "s2": "She is not coming today",
+            "tfidf": 1.0,
+            "word2vec": 0.9913679957389832,
+            "transformer": 0.9198747277259827
+        },
+        {
+            "s1": "He finished the work",
+            "s2": "He did not finish the work",
+            "tfidf": 1.0,
+            "word2vec": 0.9657196402549744,
+            "transformer": 0.8613944053649902
+        },
+        {
+            "s1": "They understand the problem",
+            "s2": "They do not understand the problem",
+            "tfidf": 1.0000000000000002,
+            "word2vec": 0.9856405258178711,
+            "transformer": 0.8815609216690063
+        },
+        {
+            "s1": "The system is working",
+            "s2": "The system is not working",
+            "tfidf": 1.0000000000000002,
+            "word2vec": 0.9902273416519165,
+            "transformer": 0.6692013740539551
+        },
+        {
+            "s1": "She passed the exam",
+            "s2": "She did not pass the exam",
+            "tfidf": 0.3927235628714144,
+            "word2vec": 0.9463120698928833,
+            "transformer": 0.8330984711647034
+        },
+        {
+            "s1": "He is ready",
+            "s2": "He is not ready",
+            "tfidf": 1.0,
+            "word2vec": 0.990692675113678,
+            "transformer": 0.8432320356369019
+        },
+        {
+            "s1": "The plan succeeded",
+            "s2": "The plan did not succeed",
+            "tfidf": 1.0000000000000002,
+            "word2vec": 0.9231494069099426,
+            "transformer": 0.8533477783203125
+        },
+        {
+            "s1": "The device functions properly",
+            "s2": "The device does not function properly",
+            "tfidf": 1.0000000000000002,
+            "word2vec": 0.9451364874839783,
+            "transformer": 0.7935699224472046
+        },
+        {
+            "s1": "I trust this method",
+            "s2": "I do not trust this method",
+            "tfidf": 1.0000000000000002,
+            "word2vec": 0.9776270985603333,
+            "transformer": 0.8972520232200623
+        },
+        {
+            "s1": "She agrees with the idea",
+            "s2": "She does not agree with the idea",
+            "tfidf": 0.4625611110806795,
+            "word2vec": 0.9731941223144531,
+            "transformer": 0.8247256278991699
+        },
+        {
+            "s1": "The model performed well",
+            "s2": "The model did not perform well",
+            "tfidf": 1.0,
+            "word2vec": 0.9476459622383118,
+            "transformer": 0.8375244140625
+        },
+        {
+            "s1": "He attended the meeting",
+            "s2": "He did not attend the meeting",
+            "tfidf": 1.0,
+            "word2vec": 0.9478141665458679,
+            "transformer": 0.7725746631622314
+        },
+        {
+            "s1": "The system detected errors",
+            "s2": "The system did not detect errors",
+            "tfidf": 1.0,
+            "word2vec": 0.930027186870575,
+            "transformer": 0.8771144151687622
+        },
+        {
+            "s1": "They accepted the proposal",
+            "s2": "They did not accept the proposal",
+            "tfidf": 0.4625611110806795,
+            "word2vec": 0.9696547985076904,
+            "transformer": 0.8377812504768372
+        }
+    ],
+    "word_order": [
+        {
+            "s1": "The cat chased the mouse",
+            "s2": "The mouse chased the cat",
+            "tfidf": 1.0000000000000002,
+            "word2vec": 0.9999999403953552,
+            "transformer": 0.9831790328025818
+        },
+        {
+            "s1": "She loves him deeply",
+            "s2": "He loves her deeply",
+            "tfidf": 1.0000000000000002,
+            "word2vec": 0.9860337972640991,
+            "transformer": 0.9708631038665771
+        },
+        {
+            "s1": "The teacher praised the student",
+            "s2": "The student praised the teacher",
+            "tfidf": 1.0,
+            "word2vec": 1.0,
+            "transformer": 0.992018461227417
+        },
+        {
+            "s1": "Dogs bite people sometimes",
+            "s2": "People bite dogs sometimes",
+            "tfidf": 1.0,
+            "word2vec": 1.0,
+            "transformer": 0.9514626860618591
+        },
+        {
+            "s1": "The company acquired the startup",
+            "s2": "The startup acquired the company",
+            "tfidf": 1.0000000000000002,
+            "word2vec": 0.9999999403953552,
+            "transformer": 0.9932224750518799
+        },
+        {
+            "s1": "He gave her a gift",
+            "s2": "She gave him a gift",
+            "tfidf": 1.0000000000000002,
+            "word2vec": 0.991741955280304,
+            "transformer": 0.9843072891235352
+        },
+        {
+            "s1": "The boy pushed the girl",
+            "s2": "The girl pushed the boy",
+            "tfidf": 1.0000000000000002,
+            "word2vec": 0.9999998807907104,
+            "transformer": 0.9883999824523926
+        },
+        {
+            "s1": "The police arrested the thief",
+            "s2": "The thief arrested the police",
+            "tfidf": 1.0000000000000002,
+            "word2vec": 1.0,
+            "transformer": 0.9900924563407898
+        },
+        {
+            "s1": "The doctor treated the patient",
+            "s2": "The patient treated the doctor",
+            "tfidf": 1.0,
+            "word2vec": 1.0,
+            "transformer": 0.9912154674530029
+        },
+        {
+            "s1": "The manager called the employee",
+            "s2": "The employee called the manager",
+            "tfidf": 1.0,
+            "word2vec": 1.0000001192092896,
+            "transformer": 0.9851414561271667
+        }
+    ],
+    "abbreviations": [
+        {
+            "s1": "Artificial intelligence is growing fast",
+            "s2": "AI is growing fast",
+            "tfidf": 0.6044478751254283,
+            "word2vec": 0.8898894190788269,
+            "transformer": 0.8554137349128723
+        },
+        {
+            "s1": "Natural language processing is complex",
+            "s2": "NLP is complex",
+            "tfidf": 0.36166295261692283,
+            "word2vec": 0.8379214406013489,
+            "transformer": 0.783226728439331
+        },
+        {
+            "s1": "Machine learning models require tuning",
+            "s2": "ML models require tuning",
+            "tfidf": 0.6284221308178423,
+            "word2vec": 0.8678837418556213,
+            "transformer": 0.8679845333099365
+        },
+        {
+            "s1": "The United States economy is strong",
+            "s2": "The US economy is strong",
+            "tfidf": 0.6699696297048476,
+            "word2vec": 0.9630494117736816,
+            "transformer": 0.9826314449310303
+        },
+        {
+            "s1": "The World Health Organization released a report",
+            "s2": "WHO released a report",
+            "tfidf": 0.6129231828937294,
+            "word2vec": 0.9284264445304871,
+            "transformer": 0.5469719171524048
+        },
+        {
+            "s1": "Graphics processing units accelerate training",
+            "s2": "GPUs accelerate training",
+            "tfidf": 0.5074260489173912,
+            "word2vec": 0.8360084295272827,
+            "transformer": 0.7308914661407471
+        },
+        {
+            "s1": "Central processing units manage computation",
+            "s2": "CPUs manage computation",
+            "tfidf": 0.5074260489173912,
+            "word2vec": 0.7152072787284851,
+            "transformer": 0.7103681564331055
+        },
+        {
+            "s1": "Doctor Smith arrived",
+            "s2": "Dr Smith arrived",
+            "tfidf": 0.6705737376965754,
+            "word2vec": 0.8799429535865784,
+            "transformer": 0.9656170010566711
+        },
+        {
+            "s1": "Information technology sector is expanding",
+            "s2": "IT sector is expanding",
+            "tfidf": 0.7168037059916486,
+            "word2vec": 0.9214798808097839,
+            "transformer": 0.7780973315238953
+        },
+        {
+            "s1": "Research and development drives innovation",
+            "s2": "R&D drives innovation",
+            "tfidf": 0.6801184537127923,
+            "word2vec": 0.7123679518699646,
+            "transformer": 0.675095796585083
+        }
+    ],
+    "domain_shift": [
+        {
+            "s1": "The stock market fluctuated today",
+            "s2": "The weather changed drastically today",
+            "tfidf": 0.17935774626472378,
+            "word2vec": 0.7997998595237732,
+            "transformer": 0.3560108542442322
+        },
+        {
+            "s1": "Neural networks require data",
+            "s2": "Plants require sunlight",
+            "tfidf": 0.20739882962997994,
+            "word2vec": 0.6232638955116272,
+            "transformer": 0.14584478735923767
+        },
+        {
+            "s1": "The server crashed unexpectedly",
+            "s2": "The volcano erupted suddenly",
+            "tfidf": 0.0,
+            "word2vec": 0.6748713850975037,
+            "transformer": 0.2943935990333557
+        },
+        {
+            "s1": "The experiment produced results",
+            "s2": "The harvest produced crops",
+            "tfidf": 0.30086471365754114,
+            "word2vec": 0.7551308274269104,
+            "transformer": 0.26639580726623535
+        },
+        {
+            "s1": "The algorithm optimized performance",
+            "s2": "The diet improved health",
+            "tfidf": 0.0,
+            "word2vec": 0.6241413354873657,
+            "transformer": 0.07999040186405182
+        },
+        {
+            "s1": "The database stored information",
+            "s2": "The library stored books",
+            "tfidf": 0.3084701720248591,
+            "word2vec": 0.8454469442367554,
+            "transformer": 0.5282421112060547
+        },
+        {
+            "s1": "The software detected malware",
+            "s2": "The doctor detected illness",
+            "tfidf": 0.24636079372586472,
+            "word2vec": 0.6994404792785645,
+            "transformer": 0.23120708763599396
+        },
+        {
+            "s1": "The satellite captured images",
+            "s2": "The camera captured photos",
+            "tfidf": 0.30086471365754114,
+            "word2vec": 0.9025092720985413,
+            "transformer": 0.6078262329101562
+        },
+        {
+            "s1": "The model predicted trends",
+            "s2": "The teacher predicted outcomes",
+            "tfidf": 0.3452062556530726,
+            "word2vec": 0.8477388620376587,
+            "transformer": 0.3750518560409546
+        },
+        {
+            "s1": "The system processed inputs",
+            "s2": "The chef processed ingredients",
+            "tfidf": 0.3266054825138482,
+            "word2vec": 0.718667209148407,
+            "transformer": 0.1639253795146942
+        }
+    ],
+    "same_topic_diff_stance": [
+        {
+            "s1": "Online education is beneficial",
+            "s2": "Online education is harmful",
+            "tfidf": 0.6094815117142914,
+            "word2vec": 0.9585476517677307,
+            "transformer": 0.8567413091659546
+        },
+        {
+            "s1": "Artificial intelligence will help society",
+            "s2": "Artificial intelligence will harm society",
+            "tfidf": 0.7205534195497871,
+            "word2vec": 0.9653122425079346,
+            "transformer": 0.8525958061218262
+        },
+        {
+            "s1": "Remote work improves productivity",
+            "s2": "Remote work reduces productivity",
+            "tfidf": 0.7299762607789408,
+            "word2vec": 0.9690303206443787,
+            "transformer": 0.961963415145874
+        },
+        {
+            "s1": "Social media connects people",
+            "s2": "Social media isolates people",
+            "tfidf": 0.707719840209507,
+            "word2vec": 0.9453322887420654,
+            "transformer": 0.6858634948730469
+        },
+        {
+            "s1": "Electric cars are the future",
+            "s2": "Electric cars are impractical",
+            "tfidf": 0.6196037161958563,
+            "word2vec": 0.9058545231819153,
+            "transformer": 0.7934847474098206
+        },
+        {
+            "s1": "Nuclear energy is safe",
+            "s2": "Nuclear energy is dangerous",
+            "tfidf": 0.6325357724558879,
+            "word2vec": 0.9685111045837402,
+            "transformer": 0.9214414954185486
+        },
+        {
+            "s1": "Climate change is a serious issue",
+            "s2": "Climate change is exaggerated",
+            "tfidf": 0.5273659955456409,
+            "word2vec": 0.9225142002105713,
+            "transformer": 0.7216291427612305
+        },
+        {
+            "s1": "Technology simplifies life",
+            "s2": "Technology complicates life",
+            "tfidf": 0.6196037161958563,
+            "word2vec": 0.9384969472885132,
+            "transformer": 0.7976928353309631
+        },
+        {
+            "s1": "Urbanization improves living standards",
+            "s2": "Urbanization worsens living conditions",
+            "tfidf": 0.48241326266957196,
+            "word2vec": 0.8754276633262634,
+            "transformer": 0.8262505531311035
+        },
+        {
+            "s1": "Automation creates jobs",
+            "s2": "Automation destroys jobs",
+            "tfidf": 0.5941452155726062,
+            "word2vec": 0.899227499961853,
+            "transformer": 0.7646304368972778
+        },
+        {
+            "s1": "Data privacy is essential",
+            "s2": "Data privacy is overrated",
+            "tfidf": 0.6011762418264066,
+            "word2vec": 0.9321589469909668,
+            "transformer": 0.7491539716720581
+        },
+        {
+            "s1": "AI will replace human jobs",
+            "s2": "AI will create new jobs",
+            "tfidf": 0.4067780822895014,
+            "word2vec": 0.934290885925293,
+            "transformer": 0.8059735894203186
+        },
+        {
+            "s1": "Higher education is valuable",
+            "s2": "Higher education is unnecessary",
+            "tfidf": 0.6094815117142914,
+            "word2vec": 0.9313881993293762,
+            "transformer": 0.7728153467178345
+        },
+        {
+            "s1": "Globalization benefits economies",
+            "s2": "Globalization harms local industries",
+            "tfidf": 0.27517419719754765,
+            "word2vec": 0.7871402502059937,
+            "transformer": 0.6918096542358398
+        },
+        {
+            "s1": "Cryptocurrency is revolutionary",
+            "s2": "Cryptocurrency is risky",
+            "tfidf": 0.4625611110806795,
+            "word2vec": 0.6745725274085999,
+            "transformer": 0.764638364315033
+        }
+    ]
+}
