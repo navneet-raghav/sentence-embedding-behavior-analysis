@@ -3,7 +3,7 @@ import re
 import gensim.downloader as api
 from sklearn.metrics.pairwise import cosine_similarity
 
-# Load pretrained embeddings
+
 w2v_model = api.load("glove-wiki-gigaword-100")
 
 def clean_sentence(sentence):

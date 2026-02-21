@@ -1,7 +1,7 @@
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
-# Load model once
+
 model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
 def transformer_similarity(s1, s2):
